@@ -1,0 +1,74 @@
+/* proprietà pagina*/
+body{
+    margin:0px;
+    width: 100vw;
+}
+
+header{
+    width: 100%;   
+}
+/* proprietà logo e sfondo logo*/
+header section{
+    background-image: url('../img/pattern.png');
+    background-color: deepskyblue;
+    height: 150px;
+}
+#logo{
+    width: 200px;
+    height: auto;
+    padding-top:100px;
+}
+
+main,footer{
+    width: 70%;
+    margin: auto;
+}
+main h1,p,span{
+    margin-left: 15px;
+}
+
+.tim{
+    margin-top:25px;
+    width: 45%;
+    height:500px;
+}
+
+.evidenziato{
+    background-color: yellow ;
+}
+/* proprietà tabella*/
+table th {
+    background-color:deepskyblue;
+    color: #FFF;
+}
+
+table td {
+    padding: 10px 0;
+    min-width: 300px;
+}
+
+tr:nth-child(even) {
+    background-color: hsl(192, 50%, 75%);
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+/* proprietà immagini in footer*/
+.container {
+    position: relative;
+    -text-align: center;
+    color: white;
+}
+
+.container2 {
+    position: relative;
+    -text-align: center;
+    color: white;
+}
+
+.top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+ }

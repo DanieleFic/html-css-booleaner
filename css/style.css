@@ -1,0 +1,67 @@
+/* prorietà della pagina*/
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+/* proprietà logo e sfondo logo*/
+.background-logo{
+    height: 150px;
+}
+
+.logo{
+    height: auto;
+    width: 20%;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+header div{
+    size: 50%;
+    background-color: deepskyblue;
+}
+/* proprietà elementi in main*/
+.top-image{
+    margin-top: 20px;
+}
+
+.text-color{
+    background-color: yellow;
+}
+/* proprietà tabella*/
+table th {
+    background-color:deepskyblue;
+    color: #FFF;
+}
+
+table td {
+    padding: 10px 0;
+    min-width: 300px;
+}
+
+tr:nth-child(even) {
+    background-color: hsl(192, 50%, 75%);
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+/* proprietà immagini in footer*/
+.container {
+    position: relative;
+    -text-align: center;
+    color: white;
+}
+
+.container2 {
+    position: relative;
+    -text-align: center;
+    color: white;
+}
+
+.top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+ }
