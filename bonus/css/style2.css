@@ -13,10 +13,11 @@ header section{
     background-color: deepskyblue;
     height: 150px;
 }
-#logo{
-    width: 200px;
+.logo{
     height: auto;
-    padding-top:100px;
+    width: 20%;
+    padding-top: 50px;
+    padding-left: 100px;
 }
 
 main,footer{
@@ -33,7 +34,7 @@ main h1,p,span{
     height:500px;
 }
 
-.evidenziato{
+.text-color{
     background-color: yellow ;
 }
 /* proprietà tabella*/
